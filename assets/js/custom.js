@@ -54,7 +54,22 @@ Version: 1.0
 	// 	navigationText: ["<i class='mdi mdi-chevron-left'></i>", "<i class='mdi mdi-chevron-right'></i>"]
   //     });
   // }
-	
+
+// index owl slider
+
+var objowlcarousel = $(".owl-carousel-index");
+if (objowlcarousel.length > 0) {
+ objowlcarousel.owlCarousel({
+  items:1,
+  lazyLoad: true,
+  pagination: false,
+  loop: false,
+  autoPlay: false,
+  navigation: true,
+  stopOnHover: true,
+  navigationText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+});
+}	
   // Tooltip
   $('[data-toggle="tooltip"]').tooltip()
 
@@ -78,3 +93,14 @@ Version: 1.0
   });
 
 })(jQuery); // End of use strict
+
+
+
+
+$(".scroll").on('click', function(e) {
+  e.preventDefault();
+  var target = $(this).attr('href');
+  $('html, body').animate({
+    scrollTop: ($(target).offset().top)
+  }, 2000);
+});
