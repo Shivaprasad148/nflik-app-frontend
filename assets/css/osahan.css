@@ -2178,6 +2178,22 @@ a,a:hover,a:focus{
     font-size: 12px;
     margin-left: 5px;
 }
+
+.btnSet button{
+    background: #fff;
+    border-radius: 3px;
+    width: 18px;
+    display: inline-block;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    color: #8b6af3 !important;
+    font-size: 12px;
+    margin-left: 5px;
+    border: none;
+    padding: 0px;
+}
+
 .br3{
     border-radius: 3px;
 }
