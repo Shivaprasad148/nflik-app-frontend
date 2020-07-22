@@ -293,7 +293,7 @@ a,a:hover,a:focus{
     padding: 24px;
 }
 .blueBg{
-  background: #8b6af3 !important;
+  background: #1c1c1c !important;
 }
 .lcard h6{
   font-size: 15px;
@@ -426,23 +426,23 @@ a,a:hover,a:focus{
 }
 .titleSet{
   position: absolute;
-  bottom: 0px;
+  bottom: 80px;
   left: 0;
   width:50%;
   color: #fff;
 }
 .titleSet h3{
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 800;
   text-transform: uppercase;
 }
 .titleSet p{
-  margin: 5px 0 0 0;
+  margin: 7px 0 0 0;
 }
 .buttonSet{
   position: absolute;
-  bottom: 0px;
-  right: 0;
+  bottom: 10px;
+  left: 0;
   width:50%;
   text-align: right;
   white-space: nowrap;
