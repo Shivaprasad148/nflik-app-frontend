@@ -70,8 +70,10 @@ if (objowlcarousel.length > 0) {
   navigationText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
 });
 }	
+
   // Tooltip
-  $('[data-toggle="tooltip"]').tooltip()
+  // $('[data-toggle="tooltip"]').tooltip()
+
 
   // Scroll to top button appear
   $(document).on('scroll', function() {

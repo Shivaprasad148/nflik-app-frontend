@@ -94,7 +94,7 @@ Version: 1.0
      background: rgba(52, 58, 64, 0.5) none repeat scroll 0 0;
      border-radius: 70px !important;
      bottom: 86px;
-     color: #fff;
+     color: #fff !important;
      display: none;
      height: 50px;
      line-height: 46px;
@@ -102,6 +102,7 @@ Version: 1.0
      right: 15px;
      text-align: center;
      width: 50px;
+     z-index: 1;
 }
  .scroll-to-top:focus, .scroll-to-top:hover {
      color: white;
@@ -405,7 +406,7 @@ Version: 1.0
      padding: 0;
 }
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: #fff;
+    color: #fff !important;
 }
  .osahan-navbar-search .form-control {
     background: #121212 none repeat scroll 0 0;
@@ -644,7 +645,7 @@ Version: 1.0
 }
  .btn-outline-info{
      border-color: #17a2b8;
-     color: #17a2b8;
+     color: #17a2b8 !important;
 }
  .text-info{
      color: #17a2b8 !important;
@@ -728,7 +729,7 @@ Version: 1.0
      margin: 0 0 5px;
 }
  a {
-    color: #ff0000;
+    color: #ff0000 !important;
      text-decoration: none !important;
 }
  .btn {
@@ -1312,7 +1313,7 @@ Version: 1.0
  .tags span a {
     background: #333333 none repeat scroll 0 0;
      border-radius: 2px;
-     color: #fff;
+     color: #fff !important;
      display: inline-block;
      padding: 4px 9px;
 }
