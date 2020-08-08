@@ -547,6 +547,9 @@ Version: 1.0
     border-color: #ff0000;
     color: #ff0000;
 }
+.btn-outline-primary:hover{
+    color: #fff !important;
+}
 .text-primary{
     color: #ff0000 !important;
 }
@@ -652,6 +655,9 @@ Version: 1.0
  .btn-outline-info{
      border-color: #17a2b8;
      color: #17a2b8 !important;
+}
+.btn-outline-info:hover{
+    color: #fff !important;
 }
  .text-info{
      color: #17a2b8 !important;
@@ -1030,8 +1036,8 @@ Version: 1.0
     vertical-align: sub;
 }
 .total-like-user-main.ml-2 {
-    padding-left: 15px !important;
-    margin: 0 9px 0 17px !important;
+    padding-left: 10px !important;
+    margin: 0 9px 0 0px !important;
 }
 .reviews-members:last-child {
     border: medium none;

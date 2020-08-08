@@ -28,8 +28,8 @@
     <link href="assets/css/osahan.css" rel="stylesheet" />
     <link href="assets/css/new.css" rel="stylesheet" type="text/css">
     <!-- Owl Carousel -->
-    <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.carousel.css" />
-    <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.theme.css" />
+    <!-- <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.theme.css" /> -->
     <!--Video player css-->
     <link
       rel="stylesheet"
@@ -45,9 +45,30 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-  <link rel="stylesheet" href="styles.4b22227270ac9f414d2f.css"></head>
+  <link rel="stylesheet" href="styles.dd307bf47cf5140d5f39.css"></head>
   <body>
     <app-root></app-root>
+
+    <div class="modal fade" id="likeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+         <div class="modal-content">
+            <div class="modal-body text-center pt-5 py-4 ">
+        <span class="fa fa-thumbs-up fa-3x text-success"></span>
+        <p class="mt-3">Thanks for your Thumbs Up.<br> Happy for your feedback</p>
+     </div>
+         </div>
+      </div>
+    </div>
+    <div class="modal fade" id="dislikeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+         <div class="modal-content">
+            <div class="modal-body text-center pt-5 py-4 ">
+        <span class="fa fa-thumbs-down fa-3x text-danger"></span>
+        <p class="mt-3">Thanks for your feedback</p>
+     </div>
+         </div>
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript-->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -55,7 +76,7 @@
     <!-- Core plugin JavaScript-->
     <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
     <!-- Owl Carousel -->
-    <script src="assets/vendor/owl-carousel/owl.carousel.js"></script>
+    <!-- <script src="assets/vendor/owl-carousel/owl.carousel.js"></script> -->
 
     <!--Video player js-->
     <script src="https://nflik-test-processingengine.s3.ap-south-1.amazonaws.com/scripts/player.js"></script>
@@ -70,6 +91,17 @@
     <script src="assets/js/custom.js"></script>
     <script>
       $(document).ready(function(){
+
+        $('.iconSet .fa-thumbs-up').click(function() {
+          $('#likeModal').modal('show');
+          setTimeout('$(\'#likeModal\').modal(\'hide\');', 40000);
+        });
+
+        $('.iconSet .fa-thumbs-down').click(function() {
+          $('#dislikeModal').modal('show');
+          setTimeout('$(\'#dislikeModal\').modal(\'hide\');',40000);
+        });
+
         $('[data-toggle="tooltip"]').tooltip();
       });
       // $(document).ready(function () {
@@ -91,5 +123,5 @@
       //   // $(".ex1").zoom();
       // });
     </script>
-  <script src="runtime-es2015.ee6bcccf03c7c796f2d4.js" type="module"></script><script src="polyfills-es2015.9dee560c447d427632ce.js" type="module"></script><script src="runtime-es5.0f5286631ae0a9a0cb52.js" nomodule></script><script src="polyfills-es5.16f81b7f52c3bdb466e3.js" nomodule></script><script src="main-es2015.3366aadaf6b50d474775.js" type="module"></script><script src="main-es5.9091f7b9246b69be4627.js" nomodule></script></body>
+  <script src="runtime-es2015.6748a1b87c7d3a27476e.js" type="module"></script><script src="polyfills-es2015.f108db65b80328bcc162.js" type="module"></script><script src="runtime-es5.7c1e6c5dc794a73e4013.js" nomodule></script><script src="polyfills-es5.16f81b7f52c3bdb466e3.js" nomodule></script><script src="main-es2015.8bce2956df12c647e291.js" type="module"></script><script src="main-es5.efabd75a0d2f68136b4c.js" nomodule></script></body>
 </html>

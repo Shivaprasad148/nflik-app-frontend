@@ -253,7 +253,7 @@ min-width: 80px;
 .minh200{
   min-height: 200px;
 }
-.inbox{
+/* .inbox{
   list-style: none;
   padding: 0px;
 }
@@ -272,7 +272,7 @@ min-width: 80px;
 .inbox li span{
   float:right;
   font-size: 12px;
-}
+} */
 
 @media (min-width: 1300px){
 .modal-xlg {
@@ -595,4 +595,8 @@ body.sidebar-toggled footer.sticky-footer {
       height: 50px;
       text-align: center;
   }
+}
+
+.bg-black{
+  background: #000 !important
 }
