@@ -1,0 +1,67 @@
+.slide1{
+    background: url(../img/welcome/welcome1.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+.welcomeText .logoN{
+    max-width: 200px;
+}
+.ribbon {
+    background: linear-gradient(135deg, #ff516bba 0%,#826cfde8 100%);
+    padding: 28px 10px 28px 20px;
+    z-index: 1;
+    width: 100%;
+}
+.yelloc{
+   color: #FFC107;
+}
+.fontW800{
+    font-weight: 800;
+}
+.mt-10{
+    margin-top: 6rem;
+}
+.bigBtn{
+    min-width: 200px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #040505;
+    background-color: #fff !important;
+    height: 56px;
+}
+.darkBtn{
+    min-width: 200px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #040505 !important;
+    height: 56px;
+}
+.link{
+    color: #fff !important;
+    text-decoration: underline !important;
+}
+.white-bg{
+    background: #fff;
+}
+.font16{
+    font-size: 16px;
+}
+.text-dark{
+    color: #000 !important;
+}
+.grayBg{
+    background: #EBEDF2;
+    border-top: 2px solid #DCDFE6;
+}
+.grayBg a{
+    color: #666;
+}
+.grayBg .fab{
+    font-size: 18px;
+    margin-right: 20px;
+}
+.grayBg a,.grayBg span{
+    font-size: 12px;
+    margin-right: 15px;
+}
