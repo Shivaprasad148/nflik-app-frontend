@@ -42,7 +42,7 @@
     text-decoration: underline !important;
 }
 .white-bg{
-    background: #fff;
+    background: #fff !important;
 }
 .font16{
     font-size: 16px;
@@ -51,11 +51,11 @@
     color: #000 !important;
 }
 .grayBg{
-    background: #EBEDF2;
+    background: #EBEDF2 !important;
     border-top: 2px solid #DCDFE6;
 }
 .grayBg a{
-    color: #666;
+    color: #666 !important;
 }
 .grayBg .fab{
     font-size: 18px;
