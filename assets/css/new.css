@@ -226,7 +226,7 @@ min-width: 80px;
   100% { transform: rotate(360deg); }
 }
 
-.myAccount .nav-pills .nav-link{
+/* .myAccount .nav-pills .nav-link{
   color: inherit;
   margin-bottom: 5px;
   background: #dee2e6;
@@ -234,15 +234,15 @@ min-width: 80px;
 }
 .myAccount .nav-pills .nav-link .fa{
   margin-right: 5px;
-}
-.myAccount .nav-pills .nav-link.active{
+} */
+/* .myAccount .nav-pills .nav-link.active{
   background: #ff516b;
   background: -moz-linear-gradient(-45deg, #ff516b 0%, #826cfd 100%);
   background: -webkit-linear-gradient(-45deg, #ff516b 0%,#826cfd 100%);
   background: linear-gradient(135deg, #ff516b 0%,#826cfd 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff516b', endColorstr='#826cfd',GradientType=1 );
   color: #fff;
-}
+} */
 .theme{
   background: #ff516b;
   background: -moz-linear-gradient(-45deg, #ff516b 0%, #826cfd 100%);
